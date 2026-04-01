@@ -90,12 +90,6 @@
 
 ---
 
-## 💬 Motto
-
-> “The moment you stop learning, you stop growing.”
-
----
-
 ## 📫 Contact
 
 📩 Reach me via LinkedIn  
