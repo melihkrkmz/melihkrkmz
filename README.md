@@ -1,60 +1,102 @@
-<h1 align="center">Selamlar, Ben Melih Rıdvan Korkmaz 👋</h1>
+<h1 align="center">👋 Hi, I'm Melih Rıdvan Korkmaz</h1>
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?quote=Öğrenmeyi bıraktığın an, gelişmeyi de bırakırsın.&type=horizontal&theme=tokyonight" alt="Quote" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=AI+%26+Machine+Learning+Enthusiast;Computer+Vision+Developer;Future+Game+Developer;Building+Smart+Systems" />
 </p>
 
 <p align="center">
-  <em>Yazılım Geliştirme Öğrencisi · Yapay Zeka & ML Meraklısı · Oyun Geliştirici Adayı</em>
+  <em>Software Development Student · AI & ML Enthusiast · Game Developer</em>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/melihkrkmz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/melihkrkmz"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/melihkrkmz">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/melihkrkmz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
-### 🧑‍💻 Hakkımda
+## 🧠 About Me
 
-Kapadokya Üniversitesi Yazılım Geliştirme 2. sınıf öğrencisiyim. **Yapay Zeka** ve **Makine Öğrenmesi** dünyasına derin bir tutku besliyor, projelerimde bu teknolojileri aktif olarak harmanlıyorum. Teknofest sürecinde bilgisayarla görü ve kontrol sistemleri üzerine kazandığım deneyimi, şimdi **Unity** ile oyun geliştirme ve sağlam backend mimarileri kurma hedefimle birleştiriyorum.
+🎓 Software Development student at Cappadocia University  
+🤖 Passionate about Artificial Intelligence & Machine Learning  
+🎯 Focused on Computer Vision and control systems  
+🎮 Currently exploring Unity and game development  
 
----
-
-### 🛠️ Teknolojik Ekosistemim
-
-| Kategori | Teknolojiler |
-| :--- | :--- |
-| **Diller** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![JS](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Backend & DB** | ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Mobil & Web** | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) |
-| **AI & Vision** | ![YOLOv8](https://img.shields.io/badge/-YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-| **Sistem & Araçlar** | ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+🔥 **Goal:** Build AI-powered systems that solve real-world problems
 
 ---
 
-### 🚀 Öne Çıkan Projeler
-
-> [!TIP]
-> **🎯 Hava Savunma Sistemi (Teknofest)**
-> YOLO tabanlı nesne algılama. 900 veriyi augmentation ile 10.000'e çıkararak model eğitimi gerçekleştirdim. PID kontrol ve Kalman filtresi ile otonom hedef takibi.
-> `Python` `YOLOv8` `OpenCV` `PID` `Ubuntu`
-
-> [!IMPORTANT]
-> **🎮 Type to Defend**
-> Klavye hızını test eden, yazarak savunma yapılan mobil oyun projem. Flutter ile geliştirilmekte.
-> `Dart` `Flutter` `Mobile Development`
-
----
-
-### 📊 İstatistikler & Gelişim
+## ⚙️ Tech Stack
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melihkrkmz&show_icons=true&theme=tokyonight&hide_border=true&locale=tr" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melihkrkmz&layout=compact&theme=tokyonight&hide_border=true&locale=tr" height="165"/>
+  <img src="https://skillicons.dev/icons?i=python,c,dart,js,flask,postgres,flutter,react,opencv,docker,git,ubuntu" />
 </p>
 
-```text
-🔧 İşletim Sistemi: Ubuntu Linux (Terminal & Bash)
-🗄️ Veritabanı: PostgreSQL (İlişkisel Veri Modelleme)
-🎮 Oyun Motoru: Unity & C# (Learning Path)
+---
+
+## 🚀 Featured Projects
+
+### 🎯 AI-Based Air Defense System (Teknofest Project)
+- Object detection using YOLOv8  
+- Dataset expanded from 900 → 10,000 with augmentation  
+- Autonomous tracking using PID + Kalman Filter  
+- Real-time target detection and control  
+
+**Tech:** `Python` `YOLOv8` `OpenCV` `PID` `Kalman`
+
+---
+
+### 🎮 Type to Defend (Mobile Game)
+- Typing-based defense mechanics  
+- Reflex + speed-oriented gameplay  
+- Cross-platform mobile development  
+
+**Tech:** `Flutter` `Dart`
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=melihkrkmz&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melihkrkmz&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=melihkrkmz&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🧩 Currently Working On
+
+- 🧠 Computer Vision systems  
+- 🎯 YOLO optimization & data augmentation strategies  
+- 🎮 Game development with Unity  
+- ⚙️ Modular backend architectures  
+
+---
+
+## 🎯 2026 Goals
+
+- 🚀 Launch a mobile game  
+- 🤖 Build an AI-powered SaaS product  
+- 🧠 Deepen expertise in Machine Learning  
+- 🌍 Reach a global user base  
+
+---
+
+## 💬 Motto
+
+> “The moment you stop learning, you stop growing.”
+
+---
+
+## 📫 Contact
+
+📩 Reach me via LinkedIn  
+🚀 Open to collaborations and new opportunities
