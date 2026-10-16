@@ -1,91 +1,63 @@
-<h1 align="center">👋 Hi, I'm Melih Rıdvan Korkmaz</h1>
+# Melih Rıdvan Korkmaz
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&lines=AI+%26+Machine+Learning+Enthusiast;Computer+Vision+Developer;Future+Game+Developer;Building+Smart+Systems" />
-</p>
+Software Development student at Cappadocia University. I build computer vision systems that have to work in real time: detecting something on a live camera feed, tracking it, and acting on it. Lately I'm also making games, first with Flutter and now with Unity.
 
-<p align="center">
-  <em>Software Development Student · AI & ML Enthusiast · Game Developer</em>
-</p>
+[LinkedIn](https://www.linkedin.com/in/melihkrkmz)
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/melihkrkmz">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/melihkrkmz">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+<!-- Optional: add an email link here, e.g. · [Email](mailto:you@example.com) -->
 
----
+## Focus
 
-## 🧠 About Me
+**Computer vision.** Training and tuning object detectors, mostly YOLO. A lot of my time goes into the data side: growing a dataset from a small set of labeled images, choosing augmentations that reflect real conditions, and checking how the model holds up on live video instead of a clean test split.
 
-🎓 Software Development student at Cappadocia University  
-🤖 Passionate about Artificial Intelligence & Machine Learning  
-🎯 Focused on Computer Vision and control systems  
-🎮 Currently exploring Unity and game development  
+**Tracking and control.** Getting from "the model found something" to "the system follows it": Kalman filters for state estimation, PID loops for motion, and the code that connects the camera to the hardware.
 
-🔥 **Goal:** Build AI-powered systems that solve real-world problems
+**Apps and games.** Cross-platform mobile development with Flutter, and game development in Unity, where I'm learning how to structure gameplay systems so they stay manageable as a project grows.
 
----
+## Projects
 
-## ⚙️ Tech Stack
+### Autonomous Air Defense System · Teknofest
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,dart,js,flask,postgres,flutter,react,opencv,docker,git,ubuntu" />
-</p>
+A system that detects aerial targets on a live camera feed, follows them from frame to frame and aims at them without human input. Built as a Teknofest competition project.
 
----
+- **Detection:** YOLOv8 trained on a custom dataset. The original set had around 900 labeled images; augmentation expanded it to roughly 10,000, giving the model far more variation than could have been collected and labeled by hand.
+- **Tracking:** A Kalman filter smooths noisy detections and predicts where the target will be next, so tracking survives missed frames and brief occlusions.
+- **Control:** A PID controller turns the tracking error into aiming commands, keeping the target centered as it moves.
+- **Runtime:** The full loop (capture, detection, tracking, control) runs in real time with OpenCV.
 
-## 🚀 Featured Projects
+`Python` `YOLOv8` `OpenCV` `Kalman Filter` `PID`
 
-### 🎯 AI-Based Air Defense System (Teknofest Project)
-- Object detection using YOLOv8  
-- Dataset expanded from 900 → 10,000 with augmentation  
-- Autonomous tracking using PID + Kalman Filter  
-- Real-time target detection and control  
+<!-- Worth adding: repo link, a short demo GIF, your role on the team, and concrete results (mAP, FPS, how far you got in the competition). -->
 
-**Tech:** `Python` `YOLOv8` `OpenCV` `PID` `Kalman`
+### Type to Defend · Mobile game
 
----
+A defense game you play by typing. Threats keep coming, and the only way to stop them is to type fast and accurately under pressure. Built with Flutter, so the same codebase runs on Android and iOS.
 
-### 🎮 Type to Defend (Mobile Game)
-- Typing-based defense mechanics  
-- Reflex + speed-oriented gameplay  
-- Cross-platform mobile development  
+`Flutter` `Dart`
 
-**Tech:** `Flutter` `Dart`
+<!-- Add a store or repo link, plus one or two screenshots or a short GIF. -->
 
----
+## Tools
 
-## 📊 GitHub Analytics
+- **Languages:** Python, C, Dart, JavaScript
+- **ML & vision:** YOLOv8, OpenCV
+- **Backend:** Flask, PostgreSQL, Docker
+- **Frontend & mobile:** Flutter, React
+- **Other:** Git, Linux (Ubuntu), Unity
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=melihkrkmz&theme=tokyonight&hide_border=true"/>
-</p>
+## Currently
 
----
+- Improving YOLO training: augmentation strategies, dataset balance and inference speed
+- Learning Unity through small, finished prototypes
+- Designing backends that are modular from the start, so features can be added without rewrites
 
-## 🧩 Currently Working On
+## Working toward
 
-- 🧠 Computer Vision systems  
-- 🎯 YOLO optimization & data augmentation strategies  
-- 🎮 Game development with Unity  
-- ⚙️ Modular backend architectures  
+- Shipping a mobile game to the app stores
+- Building an AI-powered SaaS product around a real problem, not a demo
+- A deeper grasp of machine learning fundamentals, beyond applied detection work
+- Products that people outside my own circle actually use
 
----
+## Contact
 
-## 🎯 2026 Goals
-
-- 🚀 Launch a mobile game  
-- 🤖 Build an AI-powered SaaS product  
-- 🧠 Deepen expertise in Machine Learning  
-- 🌍 Reach a global user base  
-
----
-
-## 📫 Contact
-
-📩 Reach me via LinkedIn  
-🚀 Open to collaborations and new opportunities
+Open to internships, collaborations and competition teams. The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/melihkrkmz).
